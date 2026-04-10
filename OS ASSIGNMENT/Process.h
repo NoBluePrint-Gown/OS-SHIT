@@ -4,7 +4,7 @@
 #define PCB_H
 
 typedef enum {
-    READY, RUNNING
+    READY, RUNNING, TERMINATED
 } ProcessState;
 
 typedef struct PCB{
